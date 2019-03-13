@@ -1,4 +1,8 @@
 /*
    Import partials below
 */
-@import './normalize';
+@import 'vars';
+@import 'fonts';
+@import 'normalize';
+
+@import 'breakpoints/common';
