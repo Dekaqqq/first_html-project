@@ -18,8 +18,10 @@
     }
 
     .main-wrap{
+        position: relative;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 24px;
     }
 
     .section-content__main-headline--mobile{
@@ -68,7 +70,7 @@
 
     .section-content__main-txt{
         max-width: 180px;
-        margin-bottom: 24px;
+        margin-bottom: 0;
         font-weight: 800;
         margin-left: 56px;
         font-size: 8px;
@@ -128,9 +130,48 @@
 
     .button--header-tablet{
         display: block;
+        margin-left: 56px;
         padding: 0 14px;
         font-size: 7px;
         line-height: 28px;
     }
-}
 
+    .social{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        &__link{
+            text-decoration: none;   
+        }
+
+        &__svg{
+            width: 10px;
+            height: 12px;
+            fill: #fff;
+            cursor: pointer;
+        }
+    }
+
+    .header__number{
+        display: block;
+        position: absolute;
+        bottom: 32px;
+        left: 60px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        color: #fff;
+        transform: rotate(-90deg);
+
+        &::after{
+            content: '';
+            display: inline-block;
+            margin-left: 10px;
+            width: 11px;
+            height: 2px;
+            background: #a7a8ac;
+        }
+    }
+}
