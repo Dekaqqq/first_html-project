@@ -1,4 +1,4 @@
-/*@media (min-width: 768px){
+@media (min-width: 768px){
     .container{
         min-width: 768px;
         padding: 0 62px;
@@ -91,6 +91,7 @@
     }
 
     .header-content__right-wrap{
+        padding-top: 10px;
 
         .section-content__main-txt--tablet{
             margin: 0 0 14px 0;
@@ -114,5 +115,22 @@
             text-align: left;
         }
     }
+
+    .decor-bg{
+        position: absolute;
+        background: url(../images/mans.png);
+        width: 378px;
+        height: 418px;
+        bottom: 0;
+        right: 62px;
+        z-index: -1;
+    }
+
+    .button--header-tablet{
+        display: block;
+        padding: 0 14px;
+        font-size: 7px;
+        line-height: 28px;
+    }
 }
-*/
+
