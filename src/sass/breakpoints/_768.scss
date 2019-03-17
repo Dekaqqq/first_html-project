@@ -6,19 +6,7 @@
 
     .header{
         padding-top: 22px;
-        padding-bottom: 96px;
-        position: relative;
-
-        &::after{
-            content:'';
-            position: absolute;
-            bottom: 0;
-            right: 62px;
-            background: url(../images/mans.png);
-            width: 378px;
-            height: 418px;
-            z-index: -1;
-        }
+        padding-bottom: 96px;       
     }
 
     .nav{
@@ -87,6 +75,7 @@
         font-weight: 800;
         margin-left: 56px;
         font-size: 8px;
+        line-height: 14px;
         text-align: left;
 
         &::before{

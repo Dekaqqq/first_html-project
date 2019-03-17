@@ -18,11 +18,14 @@
     align-items: center;
 
     .logo{
-    font-size: 0;
-    font-weight: 900;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #fff;
+
+        &__link{
+            font-size: 0;
+            font-weight: 900;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #fff;
+        }
 
         &__black{
             position: relative;
@@ -168,6 +171,18 @@
 }
 
 .header__number{
+    display: none;
+}
+
+.header__number-desktop{
+    display: none;
+}
+
+.social--desktop{
+    display: none;
+}
+
+.decor-bg--desktop{
     display: none;
 }
 
