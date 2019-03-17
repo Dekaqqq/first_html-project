@@ -42,4 +42,11 @@ img {
     color: $buttonTextColor;
     background: $decorColor;
     border: none;
+    cursor: pointer;
+}
+
+.headline{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $headerColor;
 }

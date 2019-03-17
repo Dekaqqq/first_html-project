@@ -1,13 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="visually-hidden" aria-hidden="true">
     <symbol viewBox="0 0 27 17" id="burger-menu">
-        <path d="M5.672 0H27v2.25H5.672V0zm4.781 7.032H27V9.47H10.453V7.032zM0 14.251h27V16.5H0v-2.25z"/></svg>
+        <path d="M5.672 0H27v2.25H5.672V0zm4.781 7.032H27V9.47H10.453V7.032zM0 14.251h27V16.5H0v-2.25z"/>
+    </symbol>
+    <symbol viewBox="0 0 5 10" id="facebook">
+        <path d="M4.857.003H3.646a2.15 2.15 0 0 0-2.239 2.346V3.43H.189a.193.193 0 0 0-.19.195v1.568a.192.192 0 0 0 .19.194h1.218v3.954a.192.192 0 0 0 .19.195h1.589a.192.192 0 0 0 .19-.195V5.387H4.8a.192.192 0 0 0 .19-.194V3.625a.2.2 0 0 0-.056-.138.191.191 0 0 0-.135-.057H3.375v-.918a.548.548 0 0 1 .665-.665h.816a.193.193 0 0 0 .191-.194V.197a.193.193 0 0 0-.19-.194z"/>
+    </symbol>
+    <symbol viewBox="0 0 9 8" id="twitter">
+        <path d="M8.731.142a3.562 3.562 0 0 1-1.17.482 1.779 1.779 0 0 0-1.344-.627A1.916 1.916 0 0 0 4.376 1.98a2.091 2.091 0 0 0 .048.451A5.113 5.113 0 0 1 .624.359a2.1 2.1 0 0 0-.248 1 2.023 2.023 0 0 0 .818 1.649 1.731 1.731 0 0 1-.834-.247v.026a1.954 1.954 0 0 0 1.477 1.944 1.728 1.728 0 0 1-.485.069 1.807 1.807 0 0 1-.347-.035 1.869 1.869 0 0 0 1.72 1.376 3.529 3.529 0 0 1-2.286.849 3.753 3.753 0 0 1-.44-.027 4.943 4.943 0 0 0 2.823.89c3.386 0 5.238-3.02 5.238-5.64l-.006-.257A3.878 3.878 0 0 0 8.975.932a3.5 3.5 0 0 1-1.058.311A1.969 1.969 0 0 0 8.731.142z"/>
     </symbol>
 </svg>
 <header class="header container">
     <nav class="nav">
         <div class="logo">
-            <span class="logo__black">go</span>
-            <span class="logo__orange">it</span>
+            <a href="#" class="logo__link">
+                <span class="logo__black">go</span>
+                <span class="logo__orange">it</span>
+            </a>
         </div>
         <button class="burg-btn">
             <svg class="burg-btn__svg">
@@ -16,19 +24,61 @@
         </button>
     </nav>
     <div class="header__content section-content">
+        <div class="decor-bg"></div>
         <p class="header__title">GoIt</p>
-        <h2 class="section-content__main-headline">
-            [ Пошаговый Видео-курс_ ]
-        </h2>
-        <h3 class="section-content__main-txt section-content__main-txt--pseudo">
-            «Старт в карьере web-разработчика с 0» для тех, кто давно хотел зарабатывать
-             больше работая в IT, но не знал, где реализовать себя
-        </h3>
-        <h3 class="section-content__main-txt section-content__main-txt--tal">Открой для себя способ начать карьеру в сфере IT</h3>
-        <p class="section-content__txt">
-            / Без математического склада ума, работая <br> в комфортных условиях по приятному графику <br> над
-            интересными задачами и получая доход в $$$.
-        </p>
-        <button class="button button--header-mobile">Приобрести курс</button>
+        <span class="header__number">01</span>
+        <span class="header__number-desktop">02.</span>
+        <div class="social--desktop">
+            <a href="#" class="social__link">
+                <svg class="social__svg">
+                    <use href="#facebook"></use>
+                </svg>
+            </a>
+            <a href="#" class="social__link">
+                <svg class="social__svg">
+                    <use href="#twitter"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="main-wrap">
+            <div class="header-content__left-wrap">
+                <h2 class="headline section-content__main-headline--mobile">
+                    [ Пошаговый Видео-курс_ ]
+                </h2>
+                <h2 class="headline section-content__main-headline--tablet">
+                    [ Пошаговый <span class="headline__after">Видео</span><br>
+                    <span class="headline__before">курс_</span> ]
+                </h2>
+                <h3 class="section-content__main-txt section-content__main-txt--pseudo">
+                    «Старт в карьере web-разработчика с 0» для тех, кто давно хотел зарабатывать
+                больше работая в IT, но не знал, где реализовать себя
+                </h3>
+            </div>
+            <div class="header-content__right-wrap">
+                <h3 class="section-content__main-txt section-content__main-txt--tal section-content__main-txt--tablet">Открой для себя способ начать карьеру в сфере IT</h3>
+                <p class="section-content__txt">
+                / Без математического склада ума, работая <br> в комфортных условиях по приятному графику <br> над
+                интересными задачами и получая доход в $$$.
+                </p>
+                <p class="section-content__txt--tablet">
+                / Без математического склада ума, работая в комфортных условиях по приятному графику над
+                интересными задачами и получая доход в $$$.
+                </p>
+                <div class="social">
+                    <a href="#" class="social__link">
+                        <svg class="social__svg">
+                            <use href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__link">
+                        <svg class="social__svg">
+                            <use href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="decor-bg--desktop"></div>
+            </div>
+        </div>
+        <button class="button button--header-mobile button--header-tablet button--header-desktop">Приобрести курс</button>
     </div>
 </header>
