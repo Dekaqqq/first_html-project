@@ -128,6 +128,11 @@
         bottom: 0;
         right: 62px;
         z-index: -1;
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+            background: url(../images/mans@2x.png);
+            background-size: cover;
+        }
     }
 
     .button--header-tablet{
