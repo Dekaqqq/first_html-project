@@ -199,6 +199,10 @@
         color: $mainHeadlineColor;
     }
 
+    &__txt--tablet{
+        display: none;
+    }
+
     .wrap-pseudo{
         font-size: 0;
         position: relative;
@@ -272,11 +276,11 @@
     &__list{
         margin-top: 0;
         margin-bottom: 40px;
+        padding: 0 0 0 38px;
+        list-style: none;
     }
 
     .section-list{
-        padding: 0 0 0 38px;
-        list-style: none;
 
         &__item{
             position: relative;
@@ -306,5 +310,19 @@
         color: $decorColor;
         font-weight: 600;
     }
+
+    &__decor-txt--tablet{
+        display: none;
+    }
+
+    &__img--tablet{
+        display: none;
+    }
+
+     &__img--desktop{
+         display: none;
+     }
 }
+
+
 
