@@ -1,0 +1,306 @@
+/* ====================================================== */
+
+/* Alex/12-14 */
+
+.container_12-14 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 18px 0 18px;
+}
+
+/* Block 12 */
+
+.section-12__title {
+    font-weight: 900;
+    font-size: $headlineSize;
+    line-height: $headlineLh;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    color: $mainHeadlineColor;
+}
+
+.section-12__description {
+    width: 292px;
+    position: relative;
+    padding-left: 42px;
+    font-weight: 600;
+    color: $mainHeadlineColor;
+    margin: 0 0 34px 0;
+
+    //custom list-marker
+    &::before {
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        left: 18px;
+        content: '';
+        width: 16px;
+        height: 4px;
+        background-color: $mainBgColor;
+    }
+
+    &--bg {
+        background-color: $secondBgColor;
+    }
+}
+
+.section-12__img {
+    margin-bottom: 32px;
+}
+
+.section-12__CV {
+    width: 292px;
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+
+    &-item {
+        position: relative;
+        margin-bottom: 24px;
+
+        &::before {
+            display: block;
+            position: absolute;
+            top: 4px;
+            left: -20px;
+            content: '';
+            width: 7px;
+            height: 7px;
+            background-color: $mainBgColor;
+        }
+
+        &:nth-child(2) .section-12__CV-achievement{
+            letter-spacing: -0.05em;
+        }
+    }
+}
+
+.section-12__CV-achievement {
+    font-weight: 900;
+    font-size: $mainFontSize;
+    text-transform: uppercase;
+    color: $mainHeadlineColor;
+    margin: 0 0 2px 0;
+
+    &--description {
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+/* ====================================================== */
+
+/* Block 13 */
+
+.section-13__title {
+    width: 218px;
+    font-weight: 900;
+    font-size: $headlineSize;
+    line-height: $headlineLh;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 23px auto;
+    color: $mainHeadlineColor;
+}
+
+.section-13__sub-title {
+    width: 218px;
+}
+
+.section-13__description {
+    position: relative;
+    width: 260px;
+    padding-left: 42px;
+    font-weight: 600;
+    color: $mainHeadlineColor;
+    margin: 0 auto 34px auto;
+
+    &::before {
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        left: 18px;
+        content: '';
+        width: 16px;
+        height: 4px;
+        background-color: $mainBgColor;
+    }
+}
+
+/* .section-13__img {
+    margin-bottom: 34px;
+} */
+
+.section-13__sub-title {
+    font-weight: 900;
+    font-size: $mainFontSize;
+    text-transform: uppercase;
+    color: $mainHeadlineColor;
+    margin: 34px auto 23px auto;
+}
+
+.section-13__sub-description {
+    width: 224px;
+    margin: 0 auto 34px auto;
+}
+
+/* ====================================================== */
+
+/* Block 14 */
+
+.section-14__img-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+    width: 359px;
+    height: 292px;
+
+    &--text {
+        position: absolute;
+        top: 14px;
+        right: 22px;
+        font-weight: 900;
+        font-size: 226px;
+        line-height: 1;
+        color: #f7f7f7;
+        transform: rotate(90deg);
+    }
+}
+
+.section-14__img {
+    position: absolute;
+    z-index: 1;
+}
+
+.section-14__accent {
+    position: relative;
+    width: 334px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: $decorColor;
+    margin-bottom: 20px;
+
+    &::before {
+        display: block;
+        position: absolute;
+        left: -22px;
+        content: '/';
+        font-weight: 900;
+        font-size: 18px;
+        color: $mainBgColor;
+    }
+}
+
+.section-14__title {
+    width: 292px;
+    font-weight: 900;
+    font-size: $headlineSize;
+    line-height: $headlineLh;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    color: $buttonTextColor;
+
+    &--mod {
+        background-color: $mainBgColor;
+    }
+}
+
+.section-14__description {
+    position: relative;
+    padding-left: 28px;
+    width: 280px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: $mainHeadlineColor;
+    margin: 0 0 40px 0;
+
+    &::before {
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        left: -6px;
+        content: '';
+        width: 20px;
+        height: 3px;
+        background-color: $mainBgColor;
+    }
+}
+
+.section-14__sub-title {
+    width: 370px;
+    font-weight: 900;
+    font-size: $mainFontSize;
+    line-height: $mainLh;
+    text-transform: uppercase;
+    color: $mainHeadlineColor;
+    margin: 0 0 26px 0;
+}
+
+.section-14__opportunities-list {
+    list-style: none;
+    padding: 0 0 0 40px;
+    margin: 0 0 20px 0;
+}
+
+.section-14__opportunity-item {
+    position: relative;
+    width: 286px;
+    margin-bottom: 18px;
+
+    &:first-child::before {
+        content: '[ 001 ]';
+    }
+
+    &:nth-child(2)::before {
+        content: '[ 002 ]';
+    }
+
+    &:nth-child(3)::before {
+        content: '[ 003 ]';
+    }
+
+    &:nth-child(4)::before {
+        content: '[ 004 ]';
+    }
+
+    &:nth-child(5)::before {
+        content: '[ 005 ]';
+    }
+
+    &:nth-child(6)::before {
+        content: '[ 006 ]';
+    }
+
+    &::before {
+        display: block;
+        position: absolute;
+        left: -46px;
+        top: 24px;
+        width: 52px;
+        font-weight: 800;
+        line-height: 1.2;
+        color: $buttonTextColor;
+        text-align: center;
+        background-color: $decorColor;
+        transform: rotate(-90deg);
+        padding: 0;
+    }
+}
+
+.section-14__opportunity-description1 {
+    font-weight: 600;
+    color: $mainHeadlineColor;
+    margin: 0 0 8px 0;
+}
+
+.section-14__opportunity-description2 {
+    padding: 0 14px 0 0;
+    margin: 0;
+}
+
+/* ====================================================== */
