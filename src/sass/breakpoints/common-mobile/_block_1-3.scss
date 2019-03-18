@@ -295,6 +295,10 @@
                 height: 8px;
                 background: #000;
             }
+
+            &__item--desktop{
+                display: none;
+            }
         }
 
         &__decor{
@@ -322,6 +326,10 @@
      &__img--desktop{
          display: none;
      }
+
+    .section-list__item--desktop{
+         display: none;
+    }
 }
 
 
