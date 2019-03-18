@@ -128,6 +128,11 @@
         bottom: 0;
         right: 62px;
         z-index: -1;
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+            background: url(../images/mans@2x.png);
+            background-size: cover;
+        }
     }
 
     .button--header-tablet{
@@ -174,6 +179,112 @@
             width: 11px;
             height: 2px;
             background: #a7a8ac;
+        }
+    }
+//block 2
+    .earn-it{
+    padding-top: 110px;
+    padding-bottom: 50px;
+
+        &__txt{
+            display: none;
+        }
+
+        &__txt--tablet{
+            display: block;
+            max-width: 214px;
+            margin-top: 0;
+            margin-bottom: 14px;
+            font-size: 9px;
+            font-weight: 600;
+            line-height: 14px;
+            letter-spacing: .5px;
+            color: $mainHeadlineColor;
+        }
+
+        &__title{
+            margin: 0 0 0 44px;
+            max-width: 120px;
+            font-size: 10px;
+            line-height: 17px;
+
+            &::before{
+                top: 25%;
+            }
+        }
+
+        &__headline{
+            margin: 0;
+            max-width: 262px;
+            font-size: 27px;
+            line-height: 41px;
+        }
+
+        &__img{
+            display: none;
+        }
+
+        &__img--tablet{
+            display: block;
+        }
+
+        &__top-wrap{
+            display: flex;
+        }
+
+        &__middle-wrap{
+            margin-left: 70px;
+        }
+
+        .wrap-pseudo::after{
+            bottom: -140px;
+        }
+        
+        &__headline-list{
+            font-size: 20px;
+            line-height: 17px;
+            font-weight: 800;
+        }
+
+        &__list{
+            margin-bottom: 24px;
+            padding: 0;
+        }
+
+        .section-list{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+
+            &__item{
+                max-width: 140px;
+
+                &::before{
+                    display: none;
+                }
+            }
+
+            &__txt{
+                font-size: 9px;
+                line-height: 12px;
+            }
+        }
+
+        &__decor-txt{
+            display: none;
+        }
+
+        &__decor-txt--tablet{
+            display: block;
+            max-width: 186px;
+            margin: 0 0 0 auto;
+            font-size: 10px;
+            line-height: 14px;
+            color: $decorColor;
+            font-weight: 600;
+            text-align: justify;
+            text-align-last: left;
         }
     }
 }
