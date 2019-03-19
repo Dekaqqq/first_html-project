@@ -1,0 +1,227 @@
+@media (min-width: 1200px){
+    .container{
+        min-width: 1200px;
+        padding: 0 36px;
+    }
+    .header{
+        padding-top: 24px;
+        padding-bottom: 108px;
+    }
+
+    .header__content{
+        max-width: 714px;
+        margin: 0 auto;
+    }
+
+    .nav{
+        margin-bottom: 60px;
+    }
+
+    .header__title{
+        font-size: 263px;
+    }
+
+    .decor-bg{
+        display: none;
+    }
+
+    .decor-bg--desktop{
+        display: block;
+        position: absolute;
+        background: url(../images/mans.png);
+        width: 378px;
+        height: 418px;
+        bottom: -162px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .section-content__main-headline--tablet{
+        max-width: 440px;
+        font-size: 50px;
+        line-height: 63px;
+    }
+
+    .section-content__main-txt--tablet{
+        line-height: 19px;
+    }
+
+    .section-content__txt--tablet{
+        line-height: 15px;
+    }
+
+    .header__number{
+        left: 34px;
+        bottom: 36px;
+        font-size: 15px;
+        letter-spacing: .75px;
+    }
+
+    .header__number-desktop{
+        display: block;
+        position: absolute;
+        bottom: 30px;
+        left: 66px;
+        font-size: 9px;
+        line-height: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        color: #fff;
+    }
+
+    .social{
+        display: none;
+
+        &--desktop{
+        display: block;
+        position: absolute;
+        bottom: 36px;
+        right: 36px;
+        }
+
+        &__link:not(:last-child){
+            margin-right: 16px;
+        }
+    }
+
+    .button--header-desktop{
+        padding: 0 21px;
+        line-height: 30px;
+    }
+
+//block 2
+    .earn-it{
+        padding-top: 126px;
+        padding-bottom: 58px;
+        &__wrap{
+            max-width: 714px;
+            margin: 0 auto;
+        }
+
+        &__img--desktop{
+            display: block;
+        }
+
+        &__img--tablet{
+            display: none;
+        }
+
+        &__txt--tablet{
+            max-width: 238px;
+            font-size: 10px;
+            line-height: 15px;
+        }
+
+        &__title{
+            max-width: 126px;
+            font-size: 11px;
+            line-height: 19px;
+        }
+
+        &__headline{
+            max-width: 270px;
+            font-size: 30px;
+            line-height: 46px;
+        }
+
+        &__middle-wrap{
+            margin-left: 80px;
+        }
+
+        &__top-wrap{
+            margin-bottom: 74px;
+        }
+
+        &__bottom_wrap{
+            display: flex;
+        }
+
+        &__headline-list{
+            margin: 0;
+            font-size: 19px;
+            line-height: 23px;
+        }
+
+        &__list{
+            max-width: 530px;
+            margin-left: auto;
+        }
+
+        .section-list{
+            justify-content: space-between;
+            align-items: flex-start;
+
+            &__item{
+                max-width: 160px;
+                margin-bottom: 22px;
+            }
+
+            &__item--a{
+                order: 1;
+            }
+
+            &__item--f{
+                order: 2;
+            }
+
+            &__item--d{
+                order: 3;
+            }
+
+            &__item--e{
+                order: 4;
+            }
+
+            &__item--c{
+                order: 5;
+                margin-top: -18px;
+            }
+
+            &__item--j{
+                order: 6;
+                margin-top: -30px;
+            }
+
+            &__item--b{
+                order: 7;
+            }
+
+            &__item--g{
+                order: 8;
+                margin-top: -10px;
+            }
+
+            &__item--k{
+                order: 9;
+            }
+
+            &__item:nth-last-of-type(-n + 3){
+                margin-bottom: 0;
+            }
+
+            &__txt{
+                margin: 0;
+                font-size: 9px;
+                line-height: 15px;
+            }
+
+            &__item--desktop{
+                display: block;
+            }
+        }
+
+        &__decor-txt--tablet{
+            display: none;
+        }
+
+        &__decor-txt--desktop{
+            max-width: 160px;
+            margin: 0;
+            font-size: 10px;
+            line-height: 15px;
+            text-align: left;
+            color: $decorColor;
+            font-weight: 600;
+        }
+    }
+}
