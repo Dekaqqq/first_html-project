@@ -1,0 +1,46 @@
+.block-4{
+    &__img {
+
+    }
+
+    &__headline {
+        margin: 0 auto;
+        width: 276px;
+        font-size: 18px;
+        line-height: 30px;
+        color: $headerColor;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__headline-decor {
+        background: $headlineBgColor;
+    }
+
+    &__text {
+        color:$headlineBgColor;
+        font-weight: 600;
+    }
+
+    &__info {
+        color:$mainTextColor;
+    }
+
+    &__info-decor {
+        background: $secondBgColor;
+    }
+    &__title{
+        width: 256px;
+        margin: 0 auto;
+        background: $headlineBgColor;
+        font-size: 18px;
+        line-height: 30px;
+        color: $headerColor;
+        text-transform: uppercase;
+        font-weight: 600;
+        
+    }
+
+   
+    
+}
