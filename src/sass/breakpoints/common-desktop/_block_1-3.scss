@@ -145,6 +145,7 @@
         &__list{
             max-width: 530px;
             margin-left: auto;
+            margin-bottom: 0;
         }
 
         .section-list{
@@ -184,6 +185,7 @@
 
             &__item--b{
                 order: 7;
+                margin-bottom: 0;
             }
 
             &__item--g{
