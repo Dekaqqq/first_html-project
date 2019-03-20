@@ -224,4 +224,53 @@
             font-weight: 600;
         }
     }
+
+//block 3
+
+    .facts{
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        &__wrap{
+            max-width: 714px;
+            margin: 0 auto;
+        }
+
+        &__txt-wrap{
+            max-width: 220px
+        }
+
+        &__headline{
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        &__title{
+            font-size: 10px;
+            line-height: 15px;
+        }
+
+        &__list{
+            max-width: 454px;
+
+            &-headline{
+                font-size: 19px;
+                line-height: 23px;
+
+                &-decor{
+                    font-size: 10px;
+                }
+            }
+
+            &-title{
+                font-size: 9px;
+                line-height: 15px; 
+            }
+
+            &-txt{
+                font-size: 9px;
+                line-height: 13px;
+            }
+        }
+    }
 }

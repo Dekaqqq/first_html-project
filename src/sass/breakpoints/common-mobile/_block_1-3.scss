@@ -233,16 +233,7 @@
         font-weight: 900;
 
         &::before{
-            content: '';
-            display: inline-block;
-            position: absolute;
-            top: 50%;
-            left: 0;
-            margin-left: -43px;
-            transform: translateY(-50%);
-            width: 25px;
-            height: 3px;
-            background: #000;
+            @extend %title-before-line;
         }
     }
 
@@ -329,6 +320,90 @@
 
     .section-list__item--desktop{
          display: none;
+    }
+}
+
+.facts{
+    padding-top: 34px;
+    padding-bottom: 44px;
+
+    &__txt-wrap{
+        margin-bottom: 34px;
+    }
+
+    &__headline{
+        margin: 0 0 34px 110px;
+        font-size: $headlineSize;
+        line-height: $headlineLh;
+        font-weight: 900;
+        color: $mainHeadlineColor;
+        text-transform: uppercase;
+    }
+
+    &__title{
+        max-width: 300px;
+        position: relative;
+        margin: 0 0 0 110px;
+        color: $mainHeadlineColor;
+        font-weight: 600;
+        text-align: left;
+
+        &::before{
+            @extend %title-before-line;
+            width: 20px;
+            top: 10px;
+        }
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0 0 0 40px;
+        list-style: none;
+
+        &-item{
+            position: relative;
+            margin-bottom: 24px;
+
+            &::before{
+                @extend %list-style-decor;
+                top: 14px;
+                background: #ff6b08;
+            }
+        }
+
+        &-item:last-child{
+            margin-bottom: 0;
+        }
+
+        &-headline{
+            margin: 0 0 10px 0;
+            font-size: 23px;
+            line-height: 29px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: $mainHeadlineColor;
+
+            &-decor{
+                font-size: 13px;
+            }
+        }
+
+        &-title{
+            display: inline-block;
+            margin: 0 0 14px 0;
+            padding-right: 6px;
+            font-weight: 600;
+            color: $mainHeadlineColor;
+
+            &-decor{
+                background: $secondBgColor;
+            }
+        }
+
+        &-txt{
+            margin: 0;
+            max-width: 350px;
+        }
     }
 }
 

@@ -287,4 +287,101 @@
             text-align-last: left;
         }
     }
+
+//block 3
+
+    .facts{
+    padding-top: 50px;
+    padding-bottom: 36px;
+
+        &__wrap{
+            display: flex;
+            position: relative;
+            
+
+            &::before{
+                content:'';
+                position: absolute;
+                bottom: 22px;
+                right: -42px;
+                width: 259px;
+                height: 109px;
+                background: url(../images/facts-bg.png);
+
+                @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+                    background: url(../images/facts-bg@2x.png);
+                    background-size: contain;
+                }
+            }
+        }
+
+        &__txt-wrap{
+            max-width: 195px;
+            margin-right: 40px; 
+            margin-bottom: 0;     
+        }
+        
+        &__headline{
+            margin: 0 0 22px 0;
+            font-size: 27px;
+            line-height: 34px;
+        }
+
+        &__title{
+            max-width: 116px;
+            margin: 0 0 0 43px;
+            font-size: 9px;
+            line-height: 14px;
+
+            &::before{
+                width: 28px;
+                height: 4px;
+            }
+        }
+
+        &__list{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            max-width: 402px;
+
+            &-item{
+                max-width: 150px;
+                margin-right: 38px;
+
+                &::before{
+                    display: none;
+                }
+
+                &--1{
+                    order: -2;
+                }
+
+                &--4{
+                    order: -1;
+                }
+            }
+
+            &-headline{
+                font-size: 17px;
+                line-height: 20px;
+                margin-bottom: 5px;
+
+                &-decor{
+                font-size: 9px;
+                }
+            }
+
+            &-title{
+                font-size: 8px;
+                line-height: 14px;
+                margin-bottom: 6px;   
+            }
+
+            &-txt{
+                font-size: 8px;
+                line-height: 12px;
+            }
+        }
+    }
 }
