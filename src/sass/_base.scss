@@ -8,6 +8,17 @@ html {
   box-sizing: inherit;
 }
 
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
 body {
   font-family: $mainFont;
   font-size: $mainFontSize;
@@ -31,4 +42,47 @@ img {
     color: $buttonTextColor;
     background: $decorColor;
     border: none;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.button:hover,
+.button:focus{
+    background: #17ecff;
+    box-shadow: 0px 5px 6px 0px rgba(23, 236, 255, 0.26); 
+}
+
+.button:active{
+    background: #06a4b2;
+    box-shadow: 0px 5px 6px 0px rgba(6, 164, 178, 0.26);
+}
+
+.headline{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $headerColor;
+}
+
+%list-style-decor{
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -18px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #000;
+}
+
+%title-before-line{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: -43px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 3px;
+    background: #000;
 }
