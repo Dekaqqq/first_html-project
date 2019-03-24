@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 38px;
 
     .logo{
 
@@ -56,6 +57,51 @@
         }
     }
 
+    &__menu{
+        display: none;
+    }
+
+    &__menu.active{
+        display: block;
+    }
+
+    .main-menu{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        &__link{
+            display: block;
+            font-size: 12px;
+            padding: 4px 8px;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: transparent;
+            border-radius: 5px;
+            transition: .2s;
+
+            &:hover,
+            &:active{
+                background: $decorColor;
+            }
+        }
+    }
+
+    .burg-btn.active::before{
+        content:'\f00d';
+        font-family: fontAwesome;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .active .burg-btn__svg{
+        display: none;
+    }
+
     .burg-btn{
         display: block;
         padding: 0;
@@ -64,7 +110,7 @@
         cursor: pointer;
 
         &:focus{
-            outline: 1px solid $decorColor;
+            outline: 1px solid transparent;
         }
 
         &__svg{
