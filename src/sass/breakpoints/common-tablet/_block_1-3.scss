@@ -11,6 +11,14 @@
 
     .nav{
         margin-bottom: 50px;
+
+        .main-menu{
+            min-width: 430px;
+
+            &__link{
+                font-size: 14px;
+            }
+        }
     }
 
     .header__title{
