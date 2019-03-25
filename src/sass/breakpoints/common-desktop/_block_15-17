@@ -1,23 +1,19 @@
 @media (min-width: 1200px){
    
 .container_15-17 {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    min-width: 1200px;
+    width: 1200;
     padding: 0 36px;
 }
 
 /* Block 15 */
 
 .section-15__title {
-    font-weight: 900;
-    font-size: $headlineSize;
-    line-height: $headlineLh;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 0 23px 0;
-    color: $mainHeadlineColor;
+    padding-bottom: 60px;
+
+    &__tilte {
+        width:250px;
+        font-size: 30px;
+    }
 }
 
 .section-15__CV {
@@ -101,51 +97,29 @@
 /* Block 16 */
 
  .section-16 {
-    margin-bottom: 30px;
-}
-
-.section-16__img {
-    padding-top: 5px;
-}
-
-.section-16__inner {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 640px;
-}
+    flex-flow: row wrap;
+    justify-content: flex-end; 
+    padding-bottom: 60px;
 
-.section-16__title {
-    width: 218px;
-    font-weight: 900;
-    font-size: $headlineSize;
-    line-height: $headlineLh;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto 23px auto;
-    color: $mainHeadlineColor;
-}
+        &__img {
+            left: 240px;
+        }
 
-.section-16__description {
-    position: relative;
-    width: 260px;
-    padding-left: 42px;
-    font-weight: 600;
-    color: $mainHeadlineColor;
-    margin: 0 auto 34px auto;
+        &__title {
+            width: 225px;
+            font-size: 30px;
+        }
 
-    &::before {
-        display: inline-block;
-        position: absolute;
-        top: 7px;
-        left: 18px;
-        content: '';
-        width: 16px;
-        height: 4px;
-        background-color: $mainBgColor;
+        &__description {
+            width: 225px;
+            font-size: 10px;
+            padding-right: 20px;
+                
+        &::before {
+            width: 30px;
+         }
     }
-}
-
 
 /* ====================================================== */
 
