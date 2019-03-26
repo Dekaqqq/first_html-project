@@ -1,5 +1,10 @@
 .block7, .block8, .block9{
-    &_textwrapper{
+
+    &-2{
+        display: flex;
+        flex-direction: column;
+    }
+    &_textwrapper, &_textwrapper2{
         width: 380px;
         margin: 18px auto;
         
@@ -8,6 +13,10 @@
             margin: 0px auto;
             padding-left: 30px;
             
+        }
+        &_outer{
+            margin: 0px auto;
+            width: 380px;
         }
     }
     &_headline{
@@ -49,15 +58,15 @@
             line-height: 25px;
             position: relative;
             text-transform: uppercase;
+
         }
         &_before:before{
         content: '';
         display: inline-block;
         position: absolute;
-        left: -42px;
+        left: -40px;
         top: 0;
         bottom: 0;
-        -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         height: 7px;
         background: #000;
@@ -65,10 +74,82 @@
         top: 10px;
         }
     }
-    &_image{
+    &_image, &_image2{
+        margin: 35px auto 20px;
+    }
+    &_dolist{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 900;
+        display: inline-block;
+        
+        
+        &-add{
+            display: inherit;
+            margin-top: 10px;            
+        }
+    }
+    &_listwrapper{
+        position: relative;
+        width: 230px;
+        margin: 40px auto 20px;
+    }
+    &_list{
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_items--add{
+        width: 100%;
+        position: relative;
+    }
+    &_items{
+        position: relative;
+    }
+    &_itemswrapper{
+        margin-bottom: 20px;
+    }
+
+    &_number{
+        position: absolute;
+        left: -65px;
+        font-size: 25px; 
+    }
+    &_number:after{
+        content: "";
+        position: absolute;
+        background: $secondBgColor;
+        width: 10px;
+        height: 10px;
+        bottom: -18px;
+        right: 0;
+    }
+    &_getjob{
+        color: $decorColor;
+        font-size: 15px;
+        line-height: 20px;
         margin: 0px auto;
     }
-    
+    &_getjob_before{
+        position: absolute;
+        left: -26px;
+        top: 6px;
+    }
+    &_svgwrapper{
+        position: relative;
+        width: 330px;
+        display: block;
+        margin: 0px auto;
+    }
+    &_leftshadow, &_leftshadow2{
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 10px;
+        background-color: #ffffff;
+        left: -67px;
+    }
 }   
 .black_bg{
     background-color: #000000;
@@ -88,4 +169,24 @@
 .center{
     margin: 0px auto;
     display: block;
+}
+.smw{
+    width: 310px;
+}
+.margin20{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.margintop20px{
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.marginbottom20px{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.dnone_mb{
+    display: none;
 }
