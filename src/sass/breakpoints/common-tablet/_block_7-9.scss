@@ -2,7 +2,7 @@
     .block7, .block8, .block9{
         display: flex;
         flex-direction: column;
-        width: 720px;
+        width: 700px;
         padding: 0px 30px;
        
         margin: 0px auto;
@@ -51,9 +51,16 @@
         }
         &_textwrapper{
             margin-top: -15px;
+            width: 310px;
+                &_outer{
+                    width: 310px;
+                    margin-right: 0px;
+                    margin-left: auto;
+                }
         }
         &_textwrapper2{
-           margin-top: 35px;
+           margin-top: 35px;    
+           width: 310px;
         }
         &_wrapper_inner{
             width: 170px;
@@ -67,6 +74,7 @@
             font-size: 9px;
             line-height: 15px;
             margin: 0px;
+            width: 95px;
         }
         
     }
@@ -76,27 +84,28 @@
             &_headline{
                 line-height: 34px;
                 width: 280px;
-                margin-top: 15px;
+                margin-top: 0px;
             }
             &_image{
-                width: 290px;
-                height: 220px;
+                width: 276px;
+                height: 210px;
             }
             &_image2{
                 width: 310px;
                 height: 180px;
-                margin: -20px 0px 10px auto;
+                margin: -30px 0px 10px auto;
             }
             &_textwrapper-pad{
-                margin: 23px 0px 0px auto;
-                margin-right: 0px;
-                margin-left: auto;
-                width: 340px;
+                margin: 23px 42px 0px auto;
+                width: 268px;
                 padding-left: 0px;
+                &_2{
+                    margin: 23px auto 0px 0px;
+                    padding-left: 0px;
+                    width: 210px;
+                }
             }
-            &_title_before{
-                margin-bottom: 20px;
-            }
+        
             &_title_before:before{
                 top: -23px;
                 left: 0px;
@@ -106,6 +115,14 @@
                 line-height: 12px;
                 width: 200px;
                 display: inline-block;
+                &_before{
+                    width: 190px;
+                    display: inherit;
+                    &:before{
+                        width: 27px;
+                        height: 3px;
+                    }
+                }
             }
     }
     .block9{
@@ -123,7 +140,7 @@
             line-height: 14px;
         }
         &_listwrapper{
-            width: 270px;
+            width: 280px;
             margin: 0px 0px 0px auto;
 
             
@@ -148,10 +165,10 @@
             display: inline-block;
         }
         &_leftshadow2{
-            left: 127px;
+            left: 120px;
         }
         &_leftshadow{
-            left: -63px;
+            left: -40px;
         }
         &_dolist{
             font-size: 9px;
@@ -164,11 +181,31 @@
         &_number{
             font-size: 17px;
             line-height: 20px;
+            left: -42px;
+        }
+        &_svgwrapper{
+            margin-right: 0px;
+            margin-left: auto;
+        }
+        &_getjob{
+            font-size: 9px;
+            line-height: 15px;
+            width: 270px;
+            margin-right: 0px;
+            margin-left: auto;
+            &_before{
+                top: 3px;
+                height: 11px;
+                left: 34px;
+            }
         }
     }
 
 .dnone_tb{
     display: none;
+}
+.hide_mb{
+    display: block;
 }
 .mt_-18{
     margin-top: -18px;

@@ -1,5 +1,6 @@
 .block7, .block8, .block9{
-
+    width: 480px;
+    margin: 0px auto;
     &-2{
         display: flex;
         flex-direction: column;
@@ -8,7 +9,7 @@
         width: 380px;
         margin: 18px auto;
         
-        &-pad{
+        &-pad, &-pad_2{
             width: 380px;
             margin: 0px auto;
             padding-left: 30px;
@@ -37,7 +38,7 @@
         content: '';
         display: inline-block;
         position: absolute;
-        left: -42px;
+        left: -40px;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         height: 3px;
@@ -188,5 +189,8 @@
     display: inline-block;
 }
 .dnone_mb{
+    display: none;
+}
+.hide_mb{
     display: none;
 }
