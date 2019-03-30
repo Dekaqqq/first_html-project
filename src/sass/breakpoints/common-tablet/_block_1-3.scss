@@ -392,4 +392,45 @@
             }
         }
     }
+
+//Footer
+
+    .footer{
+        background: #181c27;
+
+        .top-content{
+        padding: 52px 62px;
+        background: none;
+
+            &__adress{
+                margin-right: -30px;
+            }
+        }
+
+
+        &__list{
+            display: block;
+            margin: 0 100px 0 0;
+            padding: 0;
+            max-width: 80px;
+            list-style: none;
+
+            .footer__item{
+                line-height: 14px;
+            }
+
+            .footer__link{
+                font-size: 9px;
+                line-height: 15px;
+                font-weight: 800;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+
+        .bottom-content{
+            padding-left: 62px;
+            padding-right: 62px;
+        }
+    }
 }

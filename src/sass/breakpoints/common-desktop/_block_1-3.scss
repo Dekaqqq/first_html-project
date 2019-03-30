@@ -283,4 +283,34 @@
             }
         }
     }
+
+//Footer
+    .footer{
+
+        &__list{
+            margin-right: 0;
+        }
+
+        .top-content{
+            padding: 60px 0;
+            max-width: 714px;
+            margin: 0 auto;
+            
+            .footer-button{
+                font-size: 10px;
+                line-height: 30px;
+                padding: 0 27px;
+            }
+        }
+
+        .bottom-content{
+            padding: 0;
+
+            &__wrap{
+               width: 714px;
+               max-width: 714px;
+               margin: 0 auto; 
+            }
+        }
+    }
 }
