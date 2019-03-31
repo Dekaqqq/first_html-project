@@ -98,6 +98,10 @@
   .block-5{
   padding-bottom:65px;
   }
+
+  .block-5__left-wrap{
+      max-width: 190px;
+  }
   .block-5__description {
     font-size: 9px;
     width: 166px;
@@ -105,7 +109,7 @@
     text-align: start;
   }
   .block-5__title {
-  margin: 70px 0 29px;
+  margin: 0px 0 29px;
   font-size: 27px;
   line-height: 32px;
 }
