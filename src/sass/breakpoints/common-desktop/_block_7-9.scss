@@ -1,0 +1,120 @@
+@media (min-width: 1200px){
+    .block7, .block8, .block9{
+        width: 775px;
+    }
+    .block7{
+        &_headline{
+            width: 190px;
+            font-size: 30px;
+            line-height: 37px;
+        }
+        &-2{
+            margin-top: 18px;
+        }
+        &_text_before{
+            width: 185px;
+        }
+        &_image{
+            width: 310px;
+            height: 190px;
+        }
+        &_image2{
+            width: 308px;
+            height: 250px;
+        }
+        &_textwrapper_outer{
+            margin-left: 66px;
+            margin-right: auto;
+        }
+        &_text, &_title{
+            font-size: 10px;  
+        }
+        &_text{
+            width: 200px;
+        }
+        &_textwrapper{
+            margin-top: 0px;
+        }
+        &_title{
+            width: auto;
+            display: inline;  
+        }
+    }
+    .block8{
+        margin-top: 40px;
+        &_image{
+            width: 305px;
+            height: 240px;
+        }
+        &_headline{
+            font-size: 30px;
+            width: 296px;
+        }
+        &_text_before{
+            width: 210px;
+            font-size: 10px;
+        }
+        &_textwrapper-pad{
+            margin-left: 66px;
+        }
+        &_title_before{
+            font-size: 10px;
+        }
+        &_text{
+            width: 220px;
+        }
+        &_image2{
+            width: 350px;
+            height: 200px;
+        }
+    }
+    .block9{
+        margin-top: 100px;
+        &_title{
+            font-size: 30px;
+            width: 225px;
+        }
+        &_textwrapper-pad{
+            width: 225px;
+        }
+        &_text_before{
+            font-size: 10px;
+            width: 145px;
+        }
+        &_dolist{
+            font-size: 10px;
+        }
+        &_number{
+            font-size: 19px;
+        }
+        &_dolist-add{
+            font-size: 9px;
+        }
+        &_itemswrapper{
+            width: 122px;
+        }
+        &_list{
+            width: 305px;   
+        }
+        &_listwrapper{
+            margin-left: 142px;
+            margin-left: auto;
+            margin-right: 42px;
+        }
+        &_leftshadow{
+            left: -40px;
+        }
+        &_leftshadow2{
+            left: 155px;
+        }
+}
+.dnone_dt{
+    display: none;
+}
+.ml_-10{
+    margin-left: -10px;
+}
+.mr_20{
+    margin-right: 20px
+}
+}

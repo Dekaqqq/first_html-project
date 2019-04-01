@@ -8,12 +8,10 @@
     &_textwrapper, &_textwrapper2{
         width: 380px;
         margin: 18px auto;
-        
         &-pad, &-pad_2{
             width: 380px;
             margin: 0px auto;
-            padding-left: 30px;
-            
+            padding-left: 30px;  
         }
         &_outer{
             margin: 0px auto;
@@ -24,8 +22,6 @@
         font-size: 18px;
         line-height: 24px;
         font-weight: bold;
-
-
     }
     &_text, &_text_before{
         font-size: 14px;
@@ -59,7 +55,6 @@
             line-height: 25px;
             position: relative;
             text-transform: uppercase;
-
         }
         &_before:before{
         content: '';
@@ -83,8 +78,6 @@
         line-height: 22px;
         font-weight: 900;
         display: inline-block;
-        
-        
         &-add{
             display: inherit;
             margin-top: 10px;            
@@ -111,7 +104,6 @@
     &_itemswrapper{
         margin-bottom: 20px;
     }
-
     &_number{
         position: absolute;
         left: -65px;

@@ -4,7 +4,6 @@
         flex-direction: column;
         width: 700px;
         padding: 0px 30px;
-       
         margin: 0px auto;
             &-1, &-2{
                 display: flex;
@@ -33,16 +32,15 @@
             font-size: 9px;
             line-height: 14px;
         }
-
         &_textwrapper, &_textwrapper2{
             display: flex;
             width: 275px;
             height: 130px;
             flex-direction: column;
             flex-wrap: wrap;
+            align-items: flex-start;
             justify-content: flex-start;
             align-content: space-between;
-            
                 &-pad{
                     width: 275px;
                     padding-left: 55px;
@@ -75,8 +73,9 @@
             line-height: 15px;
             margin: 0px;
             width: 95px;
+            width: auto;
+            display: inline;
         }
-        
     }
     .block8{
         flex-direction: row;
@@ -105,12 +104,13 @@
                     width: 210px;
                 }
             }
-        
+            &_title_before{
+                font-size: 9px;
+            }
             &_title_before:before{
                 top: -23px;
                 left: 0px;
             }
-            
             &_text{
                 line-height: 12px;
                 width: 200px;
@@ -142,8 +142,6 @@
         &_listwrapper{
             width: 280px;
             margin: 0px 0px 0px auto;
-
-            
         }
         &_textwrapper-pad{
             width: 200px;
@@ -200,12 +198,11 @@
             }
         }
     }
-
 .dnone_tb{
     display: none;
 }
 .dnone_mb{
-    display: block;
+    display: flex;
 }
 .mt_-18{
     margin-top: -18px;
@@ -221,6 +218,9 @@
 }
 .mb_20{
     margin-bottom: 20px;
+}
+.mt_2_tb{
+    margin-top: 2px;
 }
 
 }
