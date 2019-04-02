@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('.next').click(function(){
+        $('.slide').find('.slide__visible.active').next().addClass('active');
+        $('.slide').find('.slide__visible.active').prev().removeClass('active');
+    })
+    $('.prev').click(function(){
+        $('.slide').find('.slide__visible.active').prev().addClass('active');
+        $('.slide').find('.slide__visible.active').next().removeClass('active');
+    })
+    $('.next').click(function(){
+        $('.number').find('.number__visible.active').next().addClass('active');
+        $('.number').find('.number__visible.active').prev().removeClass('active');
+    })
+    $('.prev').click(function(){
+        $('.number').find('.number__visible.active').prev().addClass('active');
+        $('.number').find('.number__visible.active').next().removeClass('active');
+    })
+})

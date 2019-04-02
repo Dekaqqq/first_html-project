@@ -1,0 +1,248 @@
+/* ====================================================== */
+
+/* Block 4 */
+.block-4 {
+  
+  &__img {
+    
+  }
+  &__img--tablet{
+    display: none;
+}
+
+  &__headline {
+    margin: 35px auto 32px;
+    width: 276px;
+    font-size: 18px;
+    line-height: 30px;
+    color: $headerColor;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  &__headline-decor {
+    background: $headlineBgColor;
+  }
+
+  &__text {
+    color: $headlineBgColor;
+    font-weight: 600;
+    margin-bottom: 17px;
+  }
+
+  &__info {
+    margin: 17px auto 50px;
+    color: $mainTextColor;
+  }
+
+  &__info-decor {
+    background: $secondBgColor;
+  }
+  &__title {
+    width: 282px;
+    margin: 0 auto 19px;
+    background: $headlineBgColor;
+    font-size: 18px;
+    line-height: 30px;
+    color: $headerColor;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+  &__description {
+    position: relative;
+    padding-left: 28px;
+    width: 280px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: $mainHeadlineColor;
+    margin: 0 auto 50px;
+
+    &::before {
+      display: inline-block;
+      position: absolute;
+      top: 7px;
+      left: -6px;
+      content: "";
+      width: 20px;
+      height: 3px;
+      background-color: $mainBgColor;
+    }
+  }
+
+  .block-4__CV {
+    max-width: 372px;
+    list-style: none;
+    padding-left: 20px;
+    margin: 0 auto;
+
+    &-item {
+      position: relative;
+      margin-bottom: 24px;
+
+      &::before {
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: -20px;
+        content: "";
+        width: 7px;
+        height: 7px;
+        background-color: $mainBgColor;
+      }
+
+      &:nth-child(2) .block-4__CV-achievement {
+        letter-spacing: -0.05em;
+      }
+    }
+  }
+
+  .block-4__CV-achievement {
+    font-weight: 900;
+    font-size: $mainFontSize;
+    text-transform: uppercase;
+    color: $mainHeadlineColor;
+    margin: 0 auto 17px;
+
+    &--description {
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}
+
+/* ====================================================== */
+
+/* Block 5 */
+
+.block-5 {
+  &__title {
+    width: 202px;
+    margin: 70px auto 29px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $mainHeadlineColor;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  &__description {
+    position: relative;
+    padding-left: 28px;
+    width: 300px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: $mainHeadlineColor;
+    margin: 0 auto;
+
+    &::before {
+      display: inline-block;
+      position: absolute;
+      top: 7px;
+      left: -6px;
+      content: "";
+      width: 20px;
+      height: 3px;
+      background-color: $mainBgColor;
+    }
+    &-decor {
+      color: $headerColor;
+      background: $headlineBgColor;
+    }
+  }
+  &__second_title {
+    width: 202px;
+    margin: 50px auto 23px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $mainHeadlineColor;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+}
+.slider {
+  margin: 40px auto 0;
+  background: $headlineBgColor;
+  height: 250px;
+  width: 300px;
+}
+
+/* ====================================================== */
+
+/* Block 6 */
+.block-6 {
+  &__title {
+    width: 245px;
+    margin: 50px auto 23px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $mainHeadlineColor;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  &__description {
+    position: relative;
+    padding-left: 28px;
+    width: 300px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: $mainHeadlineColor;
+    margin: 0 auto 39px;
+
+    &::before {
+      display: inline-block;
+      position: absolute;
+      top: 7px;
+      left: -6px;
+      content: "";
+      width: 20px;
+      height: 3px;
+      background-color: $mainBgColor;
+    }
+  }
+  .block-6__CV {
+    width: 372px;
+    list-style: none;
+    padding-left: 20px;
+    margin: 0 auto 43px;
+
+    &-item {
+      position: relative;
+      margin-bottom: 10px;
+
+      &::before {
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: -20px;
+        content: "";
+        width: 7px;
+        height: 7px;
+        background-color: $mainBgColor;
+      }
+
+      &:nth-child(2) .block-6__CV-achievement {
+        letter-spacing: -0.05em;
+      }
+    }
+  }
+
+  .block-6__CV-achievement {
+    font-weight: 900;
+    font-size: $mainFontSize;
+    text-transform: uppercase;
+    color: $mainHeadlineColor;
+    margin: 0 auto 2px;
+
+    &--description {
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+
+}
+.block-6{
+  display: block;
+}
+.block-6__img-wrapper{
+  display: none;
+}

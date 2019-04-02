@@ -1,0 +1,158 @@
+/* ====================================================== */
+
+/* Alex/12-14 */
+
+@media (min-width: 1200px) {
+
+    .container_12-14 {
+        width: 1200px;
+        padding: 58px 242px 0 242px;
+    }
+
+    /* Block 12 */
+
+    .section-12 {
+        padding-bottom: 60px;
+
+        &__img {
+            left: 242px;
+        }
+
+        &__title {
+            width: 286px;
+            font-size: 30px;
+        }
+
+        &__description {
+            font-size: 10px;
+            width: 286px;
+            padding-right: 20px;
+
+            &::before {
+                width: 32px;
+            }
+        }
+
+        &__CV-achievement {
+            font-size: 10px;
+
+            &--description {
+                width: 220px;
+                font-size: 9px;
+            }
+        }
+    }
+
+    /* ====================================================== */
+
+    /* Block 13 */
+
+    .section-13 {
+        padding-bottom: 40px;
+        
+        &__title {
+            width: 250px;
+            font-size: 30px;
+        } 
+
+        &__description {
+            width: 224px;
+            font-size: 10px;
+            padding-left: 52px;
+            margin-bottom: 0;
+
+            &::before {
+                width: 32px;
+            }
+        }
+
+        &__subtitle-wrapper {
+            width: 146px;
+        }
+
+        &__sub-title {
+            font-size: 10px;
+            padding: 0 40px 0 0;
+        }
+
+        &__sub-description {
+            font-size: 9px;
+            padding: 0;
+        }
+    }
+
+    /* ====================================================== */
+
+    /* Block 14 */
+
+    .section-14 {
+        padding-bottom: 40px;
+
+        &__img-wrapper {
+            left: 242px;
+        }
+
+        &__accent {
+            width: 346px;
+            font-size: 10px;
+            padding-left: 26px;
+            margin-left: 0;
+            padding-right: 164px;
+
+            &::before {
+                top: -14px;
+                font-size: 36px;
+            }
+        }
+
+        &__title {
+            width: 346px;
+            font-size: 30px;
+        }
+
+        &__description {
+            width: 346px;
+            font-size: 10px;
+            padding-left: 50px;
+            padding-right: 102px;
+            margin-left: 0;
+
+            &::before {
+                width: 32px;
+            }
+        }
+
+        &__sub-title {
+            font-size: 15px;
+        }
+
+        &__opportunities-wrapper {
+            padding-top: 0;
+            width: 716px;
+        }
+
+        &__opportunities-list {
+            width: 530px;
+        }
+
+        &__opportunity-item::before {
+            font-size: 6px;
+            left: -34px;
+        }
+
+        &__sub-title {
+            width: 126.3px;
+        }
+
+        &__opportunity-description1 {
+            width: 126px;
+            font-size: 10px;
+        }
+
+        &__opportunity-description2 {
+            width: 146px;
+            font-size: 9px;
+        }
+    }
+
+}
