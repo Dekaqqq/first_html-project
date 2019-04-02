@@ -494,6 +494,7 @@
         }
     }
 
+    
     .scroll{
         position: relative;
         
@@ -519,6 +520,7 @@
     }
 
     .control{
+        display: block;
         position: relative;
         max-width: 422px;
         min-width: 422px;
